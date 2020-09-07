@@ -5,16 +5,46 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+		BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
   font-size: 16px;
 }
 
 * {
   box-sizing: border-box;
 }
-
+h1, select, button{
+	margin: 0;
+	padding: 0;
+}
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	background-color: #3b5998;
+	color: white;
+	padding: 10px 200px
+}
+header .logo {
+	display: flex;
+	align-items: center;
+}
+header button {
+	margin-left: 10px;
+	height: 2em;
+	background-color: #42b72a;
+	border: none;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+header select {
+	background-color: #3b5998;
+	color: white;
+	border: none;
 }
