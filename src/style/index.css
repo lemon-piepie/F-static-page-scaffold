@@ -28,7 +28,7 @@ header{
 	justify-content: space-between;
 	background-color: #3b5998;
 	color: white;
-	padding: 10px 200px
+	padding: 10px 275px
 }
 header .logo {
 	display: flex;
@@ -47,4 +47,9 @@ header select {
 	background-color: #3b5998;
 	color: white;
 	border: none;
+}
+
+main {
+	width: 981px;
+	margin: 0 auto;
 }
