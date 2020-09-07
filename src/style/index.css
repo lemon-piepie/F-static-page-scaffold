@@ -8,6 +8,7 @@ body {
   font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
 		BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
   font-size: 16px;
+  background-color: #e9ebee;
 }
 
 * {
@@ -52,4 +53,45 @@ header select {
 main {
 	width: 981px;
 	margin: 0 auto;
+}
+main .topic {
+	margin-bottom: 40px;
+}
+main .figure-word {
+	display: flex;
+	justify-content: space-between;
+}
+main .figure-word .pic {
+	background-color: white;
+	margin: 0;
+	width: 460px;
+	display: table;
+	vertical-align: middle;
+}
+main .figure-word figure {
+	display: table-row;
+	text-align: center;
+	vertical-align: middle;
+}
+main .figure-word figure img {
+	display: block;
+	margin: 20px auto;
+}
+main .figure-word figure figcaption {
+	font-weight: bolder;
+	font-size: 1.2em;
+	line-height: 2em;
+	height: 2em;
+}
+main .figure-word .pic p {
+	display: table-cell;
+    vertical-align:middle;
+    text-align:center;
+    line-height: 1.5em;
+    color: darkgray;
+    padding: 10px 20px;
+}
+main .figure-word .pic .startButton {
+	line-height: 100px;
+	display: table-row;
 }
