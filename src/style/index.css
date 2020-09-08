@@ -31,11 +31,11 @@ header{
 	color: white;
 	padding: 10px 275px
 }
-header .logo {
+.logo {
 	display: flex;
 	align-items: center;
 }
-header button {
+.sign-in {
 	margin-left: 10px;
 	height: 2em;
 	background-color: #42b72a;
@@ -44,46 +44,50 @@ header button {
 	padding-left: 10px;
 	padding-right: 10px;
 }
-header select {
-	background-color: #3b5998;
-	color: white;
-	border: none;
+.join {
+	line-height: 3em;
+	vertical-align: middle;
 }
-
+.caret {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	filter: invert(100%);
+}
 main {
 	width: 981px;
 	margin: 0 auto;
 }
-main .topic {
+.topic {
 	margin-bottom: 40px;
 }
-main .figure-word {
+.figure-word {
 	display: flex;
 	justify-content: space-between;
 }
-main .figure-word .pic {
+.pic {
 	background-color: white;
 	margin: 0;
 	width: 460px;
 	display: table;
 	vertical-align: middle;
 }
-main .figure-word figure {
+.pic-fig {
 	display: table-row;
 	text-align: center;
 	vertical-align: middle;
 }
-main .figure-word figure img {
+.pic-fig-img {
 	display: block;
 	margin: 20px auto;
 }
-main .figure-word figure figcaption {
+figcaption {
 	font-weight: bolder;
 	font-size: 1.2em;
 	line-height: 2em;
 	height: 2em;
 }
-main .figure-word .pic p {
+p {
 	display: table-cell;
     vertical-align:middle;
     text-align:center;
@@ -91,7 +95,7 @@ main .figure-word .pic p {
     color: darkgray;
     padding: 10px 20px;
 }
-main .figure-word .pic .startButton {
+.startButton {
 	line-height: 100px;
 	display: table-row;
 }
